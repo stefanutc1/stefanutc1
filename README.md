@@ -13,12 +13,15 @@
   <b>Languages</b><br>
   <img src="https://skillicons.dev/icons?i=cpp,python,typescript,html,css" /><br>
 
-  <br><br>
+  <br>
+
   <b>Frameworks & Tools</b><br>
   <img src="https://skillicons.dev/icons?i=react,tailwind,flask" /><br>
 
-  <br><br>
- <b>Other Tools</b><br>
+  <br>
+
+  <!-- Other Tools -->
+  <b>Other Tools</b><br>
   <img src="https://skillicons.dev/icons?i=vscode,visualstudio,mysql" /><br>
 
 </p>
