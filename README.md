@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://github.com/stefanutc1">
-    <img src="https://img.shields.io/badge/GitHub-stefanutc1-181717?style=for-the-badge&logo=github" />
+  <a href="https://github.com/mitro1337">
+    <img src="https://img.shields.io/badge/GitHub-mitro1337-181717?style=for-the-badge&logo=github" />
 </p>
 
 
@@ -11,7 +11,7 @@
 <p align="center">
 
   <b>Languages</b><br>
-  <img src="https://skillicons.dev/icons?i=cpp,python,typescript,html,css" /><br>
+  <img src="https://skillicons.dev/icons?i=python,typescript,html,css" /><br>
 
   <br>
 
