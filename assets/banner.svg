@@ -36,10 +36,10 @@
   <text x="1176" y="328" fill="#827470" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">+</text>
 
   <!-- Top Status Pill (#52212e fill, 30px radius, #efebe5 indicator dot) -->
-  <rect x="56" y="42" width="490" height="30" rx="15" fill="#52212e" stroke="#efebe5" stroke-opacity="0.22"/>
+  <rect x="56" y="42" width="510" height="30" rx="15" fill="#52212e" stroke="#efebe5" stroke-opacity="0.22"/>
   <rect x="72" y="53" width="8" height="8" rx="2" fill="#efebe5"/>
   <text x="90" y="61" fill="#efebe5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11.5" letter-spacing="0.8">
-    EXPERIENȚĂ ÎN INGINERIE DIN 2015 · FEAA UCV (2024 – 2027)
+    ENGINEERING EXPERIENCE SINCE 2015 · FEAA UCV (2024 – 2027)
   </text>
 
   <!-- Top Right Handle Pill -->
@@ -56,10 +56,10 @@
     Moană Ștefănuț-Cornel
   </text>
   <text x="78" y="186" fill="#d9d1ca" font-family="Georgia, 'Inter Display', serif" font-style="italic" font-weight="300" font-size="25" letter-spacing="-0.2">
-    Sisteme distribuite, arhitectură Core-Banking FinTech, infrastructură hibridă și investigații DFIR.
+    Distributed systems, Core-Banking FinTech architecture, hybrid infrastructure, and DFIR research.
   </text>
   <text x="78" y="218" fill="#827470" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">
-    Universitatea din Craiova · FEAA — Informatică Economică (2024 – 2027) · Craiova, România
+    University of Craiova · FEAA — B.Sc. Business Informatics (2024 – 2027) · Craiova, Romania
   </text>
 
   <!-- Bottom 4-Cell Showroom Telemetry Strip -->
@@ -68,17 +68,17 @@
     <rect x="0" y="0" width="262" height="54" fill="url(#wineBanner)" stroke="#24181e"/>
     <rect x="0" y="0" width="3" height="54" fill="#52212e"/>
     <text x="16" y="23" fill="#efebe5" font-family="-apple-system, BlinkMacSystemFont, 'Inter Display', sans-serif" font-size="16" font-weight="600">
-      2015 – Prezent
+      2015 – Present
     </text>
     <text x="16" y="42" fill="#d9d1ca" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">
-      11+ Ani Practică Software &amp; Sisteme
+      11+ Yrs Software &amp; Systems Practice
     </text>
 
     <!-- Cell 2 -->
     <rect x="275" y="0" width="262" height="54" fill="url(#wineBanner)" stroke="#24181e"/>
     <rect x="275" y="0" width="3" height="54" fill="#52212e"/>
     <text x="291" y="23" fill="#efebe5" font-family="-apple-system, BlinkMacSystemFont, 'Inter Display', sans-serif" font-size="16" font-weight="600">
-      4 Noduri · 5 VLAN-uri
+      4 Nodes · 5 VLANs
     </text>
     <text x="291" y="42" fill="#d9d1ca" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">
       Proxmox VE 9.2 · k3s · 57 Terraform
@@ -101,7 +101,7 @@
       Core-Banking ACID
     </text>
     <text x="841" y="42" fill="#d9d1ca" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">
-      Licență FEAA · PCI-DSS v4.0 &amp; SIEM
+      FEAA Thesis · PCI-DSS v4.0 &amp; SIEM
     </text>
   </g>
 </svg>

@@ -17,49 +17,49 @@
 
 ---
 
-### `[01]` · Prezentare Generală / Executive Profile
+### `[01]` · Executive Profile
 
-Salut! Sunt **Moană Ștefănuț-Cornel** (`@stefanutc1`), inginer de sisteme informatice, arhitect de infrastructură hibridă și cercetător în securitate cibernetică aplicată (**DFIR & Threat Intelligence**), în prezent student la **Universitatea din Craiova — Facultatea de Economie și Administrarea Afacerilor (FEAA), specializarea Informatică Economică (`2024 – 2027`)**.
+I am **Moană Ștefănuț-Cornel** (`@stefanutc1`), an Information Systems Engineer, Hybrid Infrastructure Architect, and Applied Cybersecurity Researcher (**DFIR & Threat Intelligence**), currently pursuing a **B.Sc. in Business Informatics at the University of Craiova — Faculty of Economics and Business Administration (FEAA, `2024 – 2027`)**.
 
-Parcursul meu tehnic a început în **2015**, construind de la zero primele servere multiplayer concurente, sisteme anti-cheat și baze de date relaționale MySQL (documentate în arhiva istorică [`stefanutc1/old`](https://github.com/stefanutc1/old)). De-a lungul a peste un deceniu de practică continuă (**2015 – Prezent**), această fundație a evoluat firesc către:
+My software engineering journey began in **2015**, building concurrent multiplayer server architectures, custom server-side anti-cheat engines, and relational MySQL schemas from scratch (preserved in the [`stefanutc1/old`](https://github.com/stefanutc1/old) historical archive). Across more than a decade of continuous hands-on practice (**2015 – Present**), that foundation has evolved into three primary engineering pillars:
 
-- **Arhitectură Financiar-Bancară Critică (Lucrare de Licență FEAA)**: Proiectarea unei platforme **Core-Banking & Payment Gateway** cu registru contabil în dublă partidă garantat **ACID** (`SELECT ... FOR UPDATE` / `SERIALIZABLE`), microservicii **Java 17 (Spring Boot 3.2)**, conformitate **PCI-DSS v4.0**, motor antifraudă **Python FastAPI** și detecție **Wazuh SIEM** pe **5 scenarii MITRE ATT&CK**.
-- **Criminalistică Digitală (DFIR) & Threat Intelligence**: Decompilarea kiturilor de phishing multi-step (ex. *Media Galaxy / `yiyangsaas.com`*), analiza atacurilor **Browser-in-the-Middle (BitM)** pe fluxuri OAuth/OpenID (*Steam*) și a releelor de vishing în timp real (*Revolut OTP Relay*), culminând cu notificări oficiale și **Takedown Național DNSC (`#178465`)**.
-- **Inginerie Datacenter Bare-Metal & Cloud Hibrid**: Operarea propriului cluster homelab cu **4 noduri fizice** (`Proxmox VE 9.2`, `OpenMediaVault 7 NAS`, `Apple Silicon ARM64`, `Kubernetes k3s`), segmentat în **5 VLAN-uri OPNsense 24.7** și orchestrat integral prin **57 de fișiere Terraform** și **18 roluri Ansible**.
+- **Mission-Critical Financial Systems (Bachelor's Thesis @ FEAA)**: Designing and hardening a full-stack **Core-Banking & Payment Gateway Platform** featuring a **PostgreSQL ACID Double-Entry Accounting Ledger** (`SELECT ... FOR UPDATE` pessimistic locking & `SERIALIZABLE` isolation), **Java 17 (Spring Boot 3.2)** microservices, **PCI-DSS v4.0** tokenization, a **Python FastAPI** real-time fraud scoring engine, and **Wazuh SIEM** detection validated against **5 MITRE ATT&CK scenarios**.
+- **Digital Forensics & Incident Response (DFIR) & Threat Intelligence**: Reverse-engineering multi-stage phishing kits (e.g., *Media Galaxy / `yiyangsaas.com`*), dissecting **Browser-in-the-Middle (BitM)** OAuth/OpenID hijacks (*Steam*) and real-time operator vishing relays (*Revolut OTP Relay*), and coordinating official **National Cybersecurity Directorate (DNSC) takedowns (`#178465`)**.
+- **Bare-Metal Datacenter & Hybrid Cloud Engineering**: Operating a self-hosted **4-node physical Homelab Datacenter** (`Proxmox VE 9.2`, `OpenMediaVault 7 NAS`, `Apple Silicon ARM64`, `Kubernetes k3s`), segmented across **5 Zero-Trust OPNsense 24.7 VLANs** and provisioned via **57 Terraform modules** and **18 Ansible roles**.
 
 ---
 
-### `[02]` · Ecosistemul de Proiecte & Arhive Principale (`2015 – 2027`)
+### `[02]` · Core Repositories & Systems Architecture (`2015 – 2027`)
 
-| Cod Sistem | Repository & Link Direct | Perioadă | Arhitectură & Specificații Tehnice |
+| System ID | Repository & Live Portal | Timeline | Architecture & Technical Scope |
 | :--- | :--- | :---: | :--- |
-| **`SYS-WEB`** | **[`stefanutc1/stefanutc1.github.io`](https://github.com/stefanutc1/stefanutc1.github.io)**<br/>↳ 🌐 **[Live: stefanutc1.github.io](https://stefanutc1.github.io)** | `2026` | **Prezentare Personală & Jurnal de Inginerie** construit în **Next.js 15 (App Router, Static Export)** cu sistem vizual inspirat din `drivepoint.ro`, consolă interactivă `zsh`, paletă `⌘K` și **7 articole tehnice long-form** (RO/EN). |
-| **`SYS-INFRA`** | **[`stefanutc1/infrastructure`](https://github.com/stefanutc1/infrastructure)** | `2025 – Prezent` | **4-Node Hybrid Homelab Datacenter**: Proxmox VE 9.2 (`pve`, `pve2`), OpenMediaVault NAS (`omv-nas`), Bare-Metal `k3s` (`kubernetes`), firewall **OPNsense 24.7** (5 VLAN-uri Zero-Trust), **57 fișiere Terraform**, **18 roluri Ansible**, **Wazuh SIEM/XDR**, **Suricata IDS/IPS** și telemetrie hardware **ESP32**. |
-| **`SYS-THESIS`** | **[`stefanutc1/proiecte`](https://github.com/stefanutc1/proiecte)** | `2024 – 2027` | **Monorepo Academic FEAA UCV (43+ Proiecte) & Licență Core-Banking**: Platformă bancară **Java 17 Spring Boot 3.2 + Angular 20 + PostgreSQL**, dosare criminalistice **DFIR** (*DNSC `#178465`*), rezolvări complete **InvataCyber CTF (100%)**, aplicații C++, C# .NET, Python și topologii Cisco Packet Tracer. |
-| **`SYS-OLD`** | **[`stefanutc1/old`](https://github.com/stefanutc1/old)** | `2015 – 2023` | **Arhiva Istorică de Dezvoltare Software**: **RedZone SA-MP Roleplay** (`2015–2016`, PAWN & MySQL), **NQGaming SA-MP 0.3.7 RPG** (`2016–2018`, 10 facțiuni, anti-cheat server-side), **Crowland Wiki** (`2019–2020`, Vue 3 & Vite), **Kronick Web Portal** (`2021–2023`, PHP/MySQL/Nginx) și **Roadman Discord Bot** (`2022–2023`, Python & Docker). |
+| **`SYS-WEB`** | **[`stefanutc1/stefanutc1.github.io`](https://github.com/stefanutc1/stefanutc1.github.io)**<br/>↳ 🌐 **[Live: stefanutc1.github.io](https://stefanutc1.github.io)** | `2026` | **Personal Presentation & Engineering Journal** built with **Next.js 15 (App Router, Static Export)**, featuring a bespoke `drivepoint.ro`-inspired UI/UX design system, interactive `zsh` shell, `⌘K` command palette, and **7 long-form bilingual (EN / RO) technical articles**. |
+| **`SYS-INFRA`** | **[`stefanutc1/infrastructure`](https://github.com/stefanutc1/infrastructure)** | `2025 – Present` | **4-Node Hybrid Homelab Datacenter**: Proxmox VE 9.2 (`pve`, `pve2`), OpenMediaVault 7 NAS (`omv-nas`), Bare-Metal `k3s` (`kubernetes`), **OPNsense 24.7** (5 Zero-Trust VLANs), **57 Terraform files**, **18 Ansible roles**, **Wazuh SIEM/XDR**, **Suricata IDS/IPS**, and **ESP32** hardware telemetry firmware. |
+| **`SYS-THESIS`** | **[`stefanutc1/proiecte`](https://github.com/stefanutc1/proiecte)** | `2024 – 2027` | **FEAA University Monorepo (43+ Projects) & Core-Banking Bachelor's Thesis**: Enterprise **Java 17 Spring Boot 3.2 + Angular 20 + PostgreSQL** banking platform, **DFIR Threat Intelligence dossiers** (*DNSC `#178465`*), **100% InvataCyber CTF writeups**, C++, C# .NET, Python, and Cisco Packet Tracer topologies. |
+| **`SYS-OLD`** | **[`stefanutc1/old`](https://github.com/stefanutc1/old)** | `2015 – 2023` | **Historical Software Engineering Archive**: **RedZone SA-MP Roleplay** (`2015–2016`, PAWN & MySQL), **NQGaming SA-MP 0.3.7 RPG** (`2016–2018`, 10 factions, custom server-side anti-cheat), **Crowland Wiki** (`2019–2020`, Vue 3 & Vite), **Kronick Web Portal** (`2021–2023`, PHP/MySQL/Nginx), and **Roadman Discord Bot** (`2022–2023`, Python & Docker). |
 
 ---
 
-### `[03]` · Jurnal Tehnic & Articole Recente pe [`stefanutc1.github.io`](https://stefanutc1.github.io)
+### `[03]` · Engineering Journal & Featured Research on [`stefanutc1.github.io`](https://stefanutc1.github.io)
 
-1. **`[POST-01]` · [Analiză Criminalistică (DFIR) a Campaniei de Phishing „Media Galaxy" — De la Kitul `yiyangsaas.com` la Takedown-ul Național DNSC `#178465`](https://stefanutc1.github.io)**  
-   *Decompilarea arhitecturii C2 (`23.224.199.13`), analiza exfiltrării datelor de card în 8 pași și blocarea națională coordonată cu Directoratul Național de Securitate Cibernetică.*
-2. **`[POST-02]` · [Arhitectura unei Platforme Core-Banking Moderne: Registru în Dublă Partidă ACID, Conformitate PCI-DSS v4.0 și Detecție SIEM](https://stefanutc1.github.io)**  
-   *Fundamentele lucrării de licență FEAA: prevenirea condițiilor de cursă (`Lost Update` / `Double-Spending`) în Java Spring Boot 3.2 și validarea pe 5 scenarii MITRE ATT&CK.*
-3. **`[POST-03]` · [Construirea unui Datacenter Homelab cu 4 Noduri: Proxmox VE 9.2, Segmentare OPNsense pe 5 VLAN-uri și 57 Module Terraform](https://stefanutc1.github.io)**  
-   *Ingineria clusterului fizic personal (`192.168.1.240`, `.181`, `.196`, `.150`), optimizarea memoriei prin ZRAM/KSM și orchestrarea GitOps.*
-4. **`[POST-04]` · [Anatomia Bypass-ului 2FA: Atacuri Browser-in-the-Middle (BitM) pe Steam OpenID și Relee Vishing în Timp Real pe Revolut](https://stefanutc1.github.io)**  
-   *Analiza comparativă a două paradigme moderne de compromitere a autentificării multifactor și reguli de detecție defensivă.*
-5. **`[POST-05]` · [Decompilarea unei Platforme de „Task Scam": Manipularea `/api/v1/site/config`, Jocul Psihologic și Vulnerabilități SQL Injection](https://stefanutc1.github.io)**  
-   *Cum funcționează tehnic escrocheriile de tip „optimizare comenzi" și cum am auditat API-ul backend al atacatorilor.*
-6. **`[POST-06]` · [InvataCyber.ro 100% CTF Writeup: Exploatarea Vulnerabilităților Reflected XSS, Blind SQLi, Jinja2 SSTI și Criptografie Aplicată](https://stefanutc1.github.io)**  
-   *Parcurgerea tehnică a tuturor provocărilor din laboratorul național de securitate cibernetică și remedierea vulnerabilităților.*
-7. **`[POST-07]` · [De la Scripturi PAWN în 2015 la Infrastructură Enterprise: Peste un Deceniu de Evoluție în Inginerie Software (`stefanutc1/old`)](https://stefanutc1.github.io)**  
-   *Retrospectivă tehnică asupra primelor sisteme reale construite între 2015 și 2023 și lecțiile de arhitectură care stau la baza proiectelor actuale.*
+1. **`[POST-01]` · [DFIR Investigation of the "Media Galaxy" Phishing Campaign — From the `yiyangsaas.com` Kit to National DNSC Takedown `#178465`](https://stefanutc1.github.io)**  
+   *Reverse-engineering the 8-step card & 3D-Secure OTP harvesting kit (`23.224.199.13`) and coordinating a national domain/IP takedown with the Romanian National Cybersecurity Directorate.*
+2. **`[POST-02]` · [Architecting a Modern Core-Banking Platform: ACID Double-Entry Ledger, PCI-DSS v4.0 Compliance, and SIEM Detection](https://stefanutc1.github.io)**  
+   *Deep dive into my FEAA Bachelor's Thesis: preventing `Lost Update` and `Double-Spending` race conditions in Spring Boot 3.2 and validating detection rules against 5 MITRE ATT&CK scenarios.*
+3. **`[POST-03]` · [Building a 4-Node Bare-Metal Homelab Datacenter: Proxmox VE 9.2, 5-VLAN OPNsense Segmentation, and 57 Terraform Modules](https://stefanutc1.github.io)**  
+   *Engineering my personal physical cluster (`192.168.1.240`, `.181`, `.196`, `.150`), ZRAM/KSM memory optimization, and GitOps automation.*
+4. **`[POST-04]` · [Anatomy of Modern 2FA Bypass: Browser-in-the-Middle (BitM) on Steam OpenID vs. Real-Time Vishing Relays on Revolut](https://stefanutc1.github.io)**  
+   *Comparative technical analysis of two advanced multi-factor authentication bypass paradigms and defensive detection strategies.*
+5. **`[POST-05]` · [Decompiling a "Task Scam" Platform: `/api/v1/site/config` Manipulation, Psychological Engineering, and SQL Injection Exposure](https://stefanutc1.github.io)**  
+   *Dissecting the backend API mechanics and database vulnerabilities of fraudulent "order optimization" platforms.*
+6. **`[POST-06]` · [InvataCyber.ro 100% CTF Writeup: Exploiting Reflected XSS, Blind SQLi, Jinja2 SSTI, and Applied Cryptography](https://stefanutc1.github.io)**  
+   *Full technical walkthrough of all Web Exploitation, Cryptography, and Linux Forensics challenges alongside remediation patterns.*
+7. **`[POST-07]` · [From PAWN Scripts in 2015 to Enterprise Infrastructure: Over a Decade of Software Engineering (`stefanutc1/old`)](https://stefanutc1.github.io)**  
+   *An engineering retrospective on the early systems built between 2015 and 2023 and how they shaped my current distributed systems architecture.*
 
 ---
 
-### `[04]` · Topologia Clusterului Homelab (`stefanutc1/infrastructure`)
+### `[04]` · Homelab Datacenter Topology (`stefanutc1/infrastructure`)
 
 ```text
                          [ WAN / Cloudflare Zero-Trust Edge ]
@@ -79,21 +79,21 @@ Parcursul meu tehnic a început în **2015**, construind de la zero primele serv
 
 ---
 
-### `[05]` · Matricea Tehnologică (`2015 – Prezent`)
+### `[05]` · Technology Stack Matrix (`2015 – Present`)
 
-| Domeniu | Tehnologii, Limbaje & Platforme |
+| Domain | Languages, Frameworks & Platforms |
 | :--- | :--- |
 | **Backend & Core Systems** | `Java 17` · `Spring Boot 3.2` · `Python 3.12` · `FastAPI` · `C / C++ (STL, POSIX)` · `C# (.NET 8)` · `PHP` · `PAWN` |
 | **Frontend & Web Portals** | `TypeScript` · `Next.js 15 (React 19)` · `Angular 20` · `Vue 3 (Vite)` · `Tailwind CSS` · `HTML5 / SCSS` |
-| **Datacenter, Cloud & IaC** | `Proxmox VE 9.2` · `Kubernetes (k3s / k0s)` · `Terraform (57 module)` · `Ansible (18 roluri)` · `Docker` · `Nginx` · `GitHub Actions CI/CD` |
+| **Datacenter, Cloud & IaC** | `Proxmox VE 9.2` · `Kubernetes (k3s / k0s)` · `Terraform (57 modules)` · `Ansible (18 roles)` · `Docker` · `Nginx` · `GitHub Actions CI/CD` |
 | **Cybersecurity, DFIR & Net** | `Wazuh SIEM/XDR` · `Suricata IDS/IPS` · `OPNsense 24.7 (5 VLANs)` · `CrowdSec` · `WireGuard` · `YARA` · `MITRE ATT&CK` |
 | **Databases & Storage** | `PostgreSQL 16 (ACID Ledger)` · `MySQL / MariaDB` · `Oracle SQL` · `SQLite` · `Redis` · `OpenMediaVault NAS (ZFS / NFSv4)` |
 
 ---
 
-### `[06]` · Coordonate & Contact
+### `[06]` · Coordinates & Contact
 
-- 🌐 **Website Personal & Blog Tehnic**: [https://stefanutc1.github.io](https://stefanutc1.github.io)
-- 🎓 **Studii Universitare**: Universitatea din Craiova · Facultatea de Economie și Administrarea Afacerilor (FEAA) — *Informatică Economică (`2024 – 2027`)*
+- 🌐 **Personal Website & Engineering Blog**: [https://stefanutc1.github.io](https://stefanutc1.github.io)
+- 🎓 **Academic Affiliation**: University of Craiova · Faculty of Economics and Business Administration (FEAA) — *B.Sc. in Business Informatics (`2024 – 2027`)*
 - 📫 **Email**: [boostcroyale18@gmail.com](mailto:boostcroyale18@gmail.com)
-- 📍 **Locație**: Craiova, România
+- 📍 **Location**: Craiova, Romania
