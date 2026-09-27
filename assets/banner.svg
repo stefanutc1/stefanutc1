@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="1200" y1="0" x2="0" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0c0c0c"/>
+      <stop offset="55%" stop-color="#14090d"/>
+      <stop offset="100%" stop-color="#17090d"/>
+    </linearGradient>
+    <radialGradient id="orbLeft" cx="18%" cy="20%" r="45%">
+      <stop offset="0%" stop-color="#52212e" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#52212e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbRight" cx="85%" cy="82%" r="42%">
+      <stop offset="0%" stop-color="#401823" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#401823" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wineBanner" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#401823" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#52212e" stop-opacity="0.35"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Base Carbon-Bordeaux Void -->
+  <rect width="1200" height="340" fill="url(#bgGrad)"/>
+  <rect width="1200" height="340" fill="url(#orbLeft)"/>
+  <rect width="1200" height="340" fill="url(#orbRight)"/>
+
+  <!-- 3-Column Structural Grid Lines (drivepoint.ro architectural frame) -->
+  <line x1="400" y1="0" x2="400" y2="340" stroke="#24181e" stroke-width="1"/>
+  <line x1="800" y1="0" x2="800" y2="340" stroke="#24181e" stroke-width="1"/>
+  <rect x="0.5" y="0.5" width="1199" height="339" stroke="#24181e" stroke-width="1"/>
+
+  <!-- Corner Crosshair Ornaments (+) -->
+  <text x="14" y="22" fill="#827470" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">+</text>
+  <text x="1176" y="22" fill="#827470" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">+</text>
+  <text x="14" y="328" fill="#827470" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">+</text>
+  <text x="1176" y="328" fill="#827470" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">+</text>
+
+  <!-- Top Status Pill (#52212e fill, 30px radius, #efebe5 indicator dot) -->
+  <rect x="56" y="42" width="490" height="30" rx="15" fill="#52212e" stroke="#efebe5" stroke-opacity="0.22"/>
+  <rect x="72" y="53" width="8" height="8" rx="2" fill="#efebe5"/>
+  <text x="90" y="61" fill="#efebe5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11.5" letter-spacing="0.8">
+    EXPERIENȚĂ ÎN INGINERIE DIN 2015 · FEAA UCV (2024 – 2027)
+  </text>
+
+  <!-- Top Right Handle Pill -->
+  <path d="M1016 42 H1144 V58 Q1144 72 1130 72 H1002 V56 Q1002 42 1016 42 Z" fill="#401823" stroke="#52212e" stroke-width="1"/>
+  <text x="1073" y="61" text-anchor="middle" fill="#efebe5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="600">
+    @stefanutc1
+  </text>
+
+  <!-- Left 4px Burgundy Accent Bar -->
+  <rect x="56" y="96" width="4" height="128" fill="#52212e"/>
+
+  <!-- Main Display Heading (Roman + Light Italic contrast) -->
+  <text x="78" y="144" fill="#efebe5" font-family="-apple-system, BlinkMacSystemFont, 'Inter Display', 'Inter', 'Segoe UI', sans-serif" font-size="48" font-weight="600" letter-spacing="-1">
+    Moană Ștefănuț-Cornel
+  </text>
+  <text x="78" y="186" fill="#d9d1ca" font-family="Georgia, 'Inter Display', serif" font-style="italic" font-weight="300" font-size="25" letter-spacing="-0.2">
+    Sisteme distribuite, arhitectură Core-Banking FinTech, infrastructură hibridă și investigații DFIR.
+  </text>
+  <text x="78" y="218" fill="#827470" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">
+    Universitatea din Craiova · FEAA — Informatică Economică (2024 – 2027) · Craiova, România
+  </text>
+
+  <!-- Bottom 4-Cell Showroom Telemetry Strip -->
+  <g transform="translate(56, 252)">
+    <!-- Cell 1 -->
+    <rect x="0" y="0" width="262" height="54" fill="url(#wineBanner)" stroke="#24181e"/>
+    <rect x="0" y="0" width="3" height="54" fill="#52212e"/>
+    <text x="16" y="23" fill="#efebe5" font-family="-apple-system, BlinkMacSystemFont, 'Inter Display', sans-serif" font-size="16" font-weight="600">
+      2015 – Prezent
+    </text>
+    <text x="16" y="42" fill="#d9d1ca" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">
+      11+ Ani Practică Software &amp; Sisteme
+    </text>
+
+    <!-- Cell 2 -->
+    <rect x="275" y="0" width="262" height="54" fill="url(#wineBanner)" stroke="#24181e"/>
+    <rect x="275" y="0" width="3" height="54" fill="#52212e"/>
+    <text x="291" y="23" fill="#efebe5" font-family="-apple-system, BlinkMacSystemFont, 'Inter Display', sans-serif" font-size="16" font-weight="600">
+      4 Noduri · 5 VLAN-uri
+    </text>
+    <text x="291" y="42" fill="#d9d1ca" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">
+      Proxmox VE 9.2 · k3s · 57 Terraform
+    </text>
+
+    <!-- Cell 3 -->
+    <rect x="550" y="0" width="262" height="54" fill="url(#wineBanner)" stroke="#24181e"/>
+    <rect x="550" y="0" width="3" height="54" fill="#52212e"/>
+    <text x="566" y="23" fill="#efebe5" font-family="-apple-system, BlinkMacSystemFont, 'Inter Display', sans-serif" font-size="16" font-weight="600">
+      DNSC #178465
+    </text>
+    <text x="566" y="42" fill="#d9d1ca" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">
+      DFIR Threat Intel &amp; C2 Takedown
+    </text>
+
+    <!-- Cell 4 -->
+    <rect x="825" y="0" width="263" height="54" fill="url(#wineBanner)" stroke="#24181e"/>
+    <rect x="825" y="0" width="3" height="54" fill="#52212e"/>
+    <text x="841" y="23" fill="#efebe5" font-family="-apple-system, BlinkMacSystemFont, 'Inter Display', sans-serif" font-size="16" font-weight="600">
+      Core-Banking ACID
+    </text>
+    <text x="841" y="42" fill="#d9d1ca" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">
+      Licență FEAA · PCI-DSS v4.0 &amp; SIEM
+    </text>
+  </g>
+</svg>
