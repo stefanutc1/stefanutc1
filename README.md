@@ -10,7 +10,7 @@
 
 [![Website & Tech Blog](https://img.shields.io/badge/WEBSITE_%26_BLOG-stefanutc1.github.io-52212e?style=for-the-badge&labelColor=17090d&logo=vercel&logoColor=efebe5)](https://stefanutc1.github.io)
 [![Homelab Infrastructure](https://img.shields.io/badge/DATACENTER_IaC-stefanutc1%2Finfrastructure-401823?style=for-the-badge&labelColor=0c0c0c&logo=proxmox&logoColor=efebe5)](https://github.com/stefanutc1/infrastructure)
-[![University & Thesis Monorepo](https://img.shields.io/badge/FEAA_2024--2027-stefanutc1%2Fproiecte-52212e?style=for-the-badge&labelColor=17090d&logo=springboot&logoColor=efebe5)](https://github.com/stefanutc1/proiecte)
+[![University & Thesis Monorepo](https://img.shields.io/badge/FEAA_2024--2027-stefanutc1%2Funiversity-52212e?style=for-the-badge&labelColor=17090d&logo=springboot&logoColor=efebe5)](https://github.com/stefanutc1/university)
 [![Historical Archive 2015-2023](https://img.shields.io/badge/ARCHIVE_2015--2023-stefanutc1%2Fold-401823?style=for-the-badge&labelColor=0c0c0c&logo=git&logoColor=d9d1ca)](https://github.com/stefanutc1/old)
 
 </div>
@@ -35,7 +35,7 @@ My software engineering journey began in **2015**, building concurrent multiplay
 | :--- | :--- | :---: | :--- |
 | **`SYS-WEB`** | **[`stefanutc1/stefanutc1.github.io`](https://github.com/stefanutc1/stefanutc1.github.io)**<br/>↳ 🌐 **[Live: stefanutc1.github.io](https://stefanutc1.github.io)** | `2026` | **Personal Presentation & Engineering Journal** built with **Next.js 15 (App Router, Static Export)**, featuring a bespoke `drivepoint.ro`-inspired UI/UX design system, interactive `zsh` shell, `⌘K` command palette, and **7 long-form bilingual (EN / RO) technical articles**. |
 | **`SYS-INFRA`** | **[`stefanutc1/infrastructure`](https://github.com/stefanutc1/infrastructure)** | `2025 – Present` | **4-Node Hybrid Homelab Datacenter**: Proxmox VE 9.2 (`pve`, `pve2`), OpenMediaVault 7 NAS (`omv-nas`), Bare-Metal `k3s` (`kubernetes`), **OPNsense 24.7** (5 Zero-Trust VLANs), **57 Terraform files**, **18 Ansible roles**, **Wazuh SIEM/XDR**, **Suricata IDS/IPS**, and **ESP32** hardware telemetry firmware. |
-| **`SYS-THESIS`** | **[`stefanutc1/proiecte`](https://github.com/stefanutc1/proiecte)** | `2024 – 2027` | **FEAA University Monorepo (43+ Projects) & Core-Banking Bachelor's Thesis**: Enterprise **Java 17 Spring Boot 3.2 + Angular 20 + PostgreSQL** banking platform, **DFIR Threat Intelligence dossiers** (*DNSC `#178465`*), **100% InvataCyber CTF writeups**, C++, C# .NET, Python, and Cisco Packet Tracer topologies. |
+| **`SYS-THESIS`** | **[`stefanutc1/university`](https://github.com/stefanutc1/university)** | `2024 – 2027` | **FEAA University Monorepo (43+ Projects) & Core-Banking Bachelor's Thesis**: Enterprise **Java 17 Spring Boot 3.2 + Angular 20 + PostgreSQL** banking platform, **DFIR Threat Intelligence dossiers** (*DNSC `#178465`*), **100% InvataCyber CTF writeups**, C++, C# .NET, Python, and Cisco Packet Tracer topologies. |
 | **`SYS-OLD`** | **[`stefanutc1/old`](https://github.com/stefanutc1/old)** | `2015 – 2023` | **Historical Software Engineering Archive**: **RedZone SA-MP Roleplay** (`2015–2016`, PAWN & MySQL), **NQGaming SA-MP 0.3.7 RPG** (`2016–2018`, 10 factions, custom server-side anti-cheat), **Crowland Wiki** (`2019–2020`, Vue 3 & Vite), **Kronick Web Portal** (`2021–2023`, PHP/MySQL/Nginx), and **Roadman Discord Bot** (`2022–2023`, Python & Docker). |
 
 ---
