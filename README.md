@@ -52,8 +52,8 @@ My software engineering journey began in **2015**, building concurrent multiplay
    *Comparative technical analysis of two advanced multi-factor authentication bypass paradigms and defensive detection strategies.*
 5. **`[POST-05]` · [Decompiling a "Task Scam" Platform: `/api/v1/site/config` Manipulation, Psychological Engineering, and SQL Injection Exposure](https://stefanutc1.github.io)**  
    *Dissecting the backend API mechanics and database vulnerabilities of fraudulent "order optimization" platforms.*
-6. **`[POST-06]` · [InvataCyber.ro 100% CTF Writeup: Exploiting Reflected XSS, Blind SQLi, Jinja2 SSTI, and Applied Cryptography](https://stefanutc1.github.io)**  
-   *Full technical walkthrough of all Web Exploitation, Cryptography, and Linux Forensics challenges alongside remediation patterns.*
+6. **`[POST-06]` · [CTF 19.09.2026 — InvataCyber.ro Complete Writeup (3/3 · 100%): Stored XSS (`The Blog`), 5652-Byte Blind SQLite Injection (`Portal`), and Jinja2 SSTI to RCE (`CMS Newsroom`)](https://github.com/stefanutc1/infrastructure/tree/main/cyber/ctf/19-09-2026)**  
+   *Full technical walkthrough and 11 automated Python/JS exploit scripts (`solver.py`, `dump_users.py`, `blog_flag.py`) capturing all three flags during the September 19, 2026 CTF.*
 7. **`[POST-07]` · [From PAWN Scripts in 2015 to Enterprise Infrastructure: Over a Decade of Software Engineering (`stefanutc1/old`)](https://stefanutc1.github.io)**  
    *An engineering retrospective on the early systems built between 2015 and 2023 and how they shaped my current distributed systems architecture.*
 
